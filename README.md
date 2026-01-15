@@ -1,143 +1,128 @@
-# 🚀 PHP & Laravel Full-Stack Development Course  
-**Batch: AI-2025-01B**
+# 🚀 Web Backend Development (SQL, PHP & Laravel)
 
-## 🌟 Course Overview
-
-This repository serves as the **official material hub** for the **PHP & Laravel Full-Stack Development** course conducted at **Aptech Gulshan 2**.
-
-It contains:
-- Complete **Core PHP** lectures & projects  
-- **Laravel Framework** lectures (ongoing)  
-- Assignments, practice work, and real-world projects  
-
-The course is structured to move students **from Core PHP to Modern Laravel-based development**.
+**Batch:** AI-2025-01B
+**Institute:** Aptech Gulshan 2
 
 ---
 
-## 🧾 Batch Details
+## 🌟 Course Overview
 
-| Detail         | Value                               |
-|---------------|-------------------------------------|
-| **Faculty**   | Yousuf Naveed Khan (Senior Faculty) |
-| **Batch Code**| AI-2025-01B                         |
-| **Schedule**  | Tuesday, Thursday, Saturday (TTS)   |
-| **Timings**   | 9:00 AM – 11:00 AM                  |
-| **Institute** | Aptech Gulshan 2                    |
+This repository serves as the **official learning hub for the 2nd Semester Web Backend Development course**.
+The course provides a complete backend journey — starting from **database design and SQL**, moving through **Core PHP**, and finally covering **modern backend development using the Laravel framework**.
+
+The focus of this repository is purely on **server-side development and database management**, ensuring a strong backend foundation.
+
+> **Important Note:**
+> This repository does **not** include JavaScript or frontend technologies.
+> It strictly covers **SQL, PHP, and Laravel (server-side logic only)**.
 
 ---
 
 ## 📁 Repository Structure
 
-```text
-Aptech-AI-2025-01B/
-│
-├── PHP/
-│   ├── Lec01-Basics
-│   ├── Lec02-Loops
-│   ├── Lec03-Arrays
-│   ├── Lec04-Array-Functions
-│   ├── Lec05-String-Functions
-│   ├── Lec06-Forms-POST
-│   ├── Lec07-GET-Sessions
-│   ├── Lec08-Cookies
-│   ├── Lec09-File-Handling
-│   ├── Lec10-Directories-Paths
-│   ├── Lec11-CRUD
-│   ├── Lec12-File-Uploading
-│   ├── Lec13-OOP
-│   ├── Lec14-API-AJAX
-│   ├── Projects/
-│   │   ├── LRS (Login Registration System)
-│   │   └── MiniBlog App
-│   └── Assignments/
-│       ├── CV & Image Uploader
-│       └── Complete Mini Blog App
-│
-├── Laravel/
-│   ├── Lec01-Introduction
-│   └── (More lectures coming soon...)
-│
-└── README.md
-````
+The repository is organized into three main modules for better clarity and learning flow:
+
+### 🗄️ 01_MySQL
+
+A complete MySQL roadmap covering **Lecture 01 to Lecture 13**.
+It starts from basic database operations and gradually moves towards advanced concepts such as:
+
+* CRUD Operations
+* Relationships
+* Stored Procedures & Triggers
+* Performance Optimization & Security
 
 ---
 
-## 📚 Course Progress
+### 🐘 02_PHP
 
-### ✅ Core PHP (Completed)
+This section covers **Core PHP (Server-Side Programming)** including:
 
-| Lecture / Project | Topic                             | Status     |
-| ----------------- | --------------------------------- | ---------- |
-| Lec 01            | PHP Basics & Setup                | ✅ Complete |
-| Lec 02            | Control Structures (Loops)        | ✅ Complete |
-| Lec 03            | Arrays (Indexed & Associative)    | ✅ Complete |
-| Lec 04            | Array Methods & Functions         | ✅ Complete |
-| Lec 05            | String Manipulation Functions     | ✅ Complete |
-| Lec 06            | Form Handling (POST)              | ✅ Complete |
-| Lec 07            | GET Method & Sessions             | ✅ Complete |
-| Lec 08            | Cookies                           | ✅ Complete |
-| Lec 09            | File Handling                     | ✅ Complete |
-| Lec 10            | Path & Directory Handling         | ✅ Complete |
-| Lec 11            | CRUD Operations                   | ✅ Complete |
-| Lec 12            | File Uploading                    | ✅ Complete |
-| Lec 13            | Object-Oriented Programming (OOP) | ✅ Complete |
-| Lec 14            | API & AJAX                        | ✅ Complete |
-| Project 01        | LRS (Login Registration System)   | ✅ Complete |
-| Project 02        | Mini Blog Application             | ✅ Complete |
-| Assignment        | CV & Image Uploader               | ⏳ Ongoing  |
-| Assignment        | Complete Mini Blog App            | ⏳ Ongoing  |
+* PHP fundamentals and syntax
+* Procedural & Object-Oriented Programming (OOP)
+* Form handling and authentication logic
+* File handling and AJAX-based API integration
 
 ---
 
-### 🚧 Laravel Framework (In Progress)
+### 🚩 03_Laravel
 
-| Lecture | Topic                                         | Status         |
-| ------- | --------------------------------------------- | -------------- |
-| Lec 01  | Introduction to Laravel                       | ✅ Uploaded     |
-| Lec 02+ | Core Concepts, MVC, Routes, Blade, API, CRUD  | 🔜 Coming Soon |
+Focused on **modern backend development using Laravel**, covering:
 
-Laravel lectures will cover **modern best practices**, **MVC architecture**, and **industry-level development workflows**.
-
----
-
-## 💡 How to Use This Repository
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/YousufNaveedKhan/Aptech-AI-2025-01B.git
-   ```
-
-2. **PHP Work**
-
-   * Open the `PHP` directory
-   * Run files using **XAMPP**
-
-3. **Laravel Work**
-
-   * Navigate to the `Laravel` directory
-   * Use:
-
-     ```bash
-     composer install
-     php artisan serve
-     ```
+* MVC Architecture
+* Blade Templating Engine
+* Eloquent ORM
+* RESTful API development and real-world mini projects
 
 ---
 
-## 🎓 Important Note for Students
+## 📚 Curriculum Progress
 
-* This repository is **read-only** for students
-* No Pull Requests are allowed
-* All content is explained **step-by-step in class**
-* Practice each lecture properly before moving forward
+### ✅ 01. MySQL Roadmap
+
+| Lecture Range | Topics Covered                                                          | Status      |
+| ------------- | ----------------------------------------------------------------------- | ----------- |
+| **Lec 01–04** | Database Creation, CRUD Operations, Aggregate Functions & Relationships | ✅ Completed |
+| **Lec 05–08** | Joins, Views, Subqueries, Stored Procedures & Triggers                  | ✅ Completed |
+| **Lec 09–13** | Query Optimization, Security, Backup Strategies & Hybrid NoSQL Concepts | ✅ Completed |
 
 ---
 
-## 👨‍🏫 Maintained By
+### ✅ 02. Core PHP (Server-Side Development)
+
+| Lecture Range | Topics Covered                                                     | Status      |
+| ------------- | ------------------------------------------------------------------ | ----------- |
+| **Lec 01–05** | PHP Basics, Control Structures, Arrays & String Functions          | ✅ Completed |
+| **Lec 06–10** | Form Handling (GET/POST), Sessions, Cookies & File Operations      | ✅ Completed |
+| **Lec 11–14** | Database CRUD Operations, File Uploading, OOP Concepts & AJAX APIs | ✅ Completed |
+| **Projects**  | Login & Registration System (LRS) and Mini Blog Application        | ✅ Completed |
+
+---
+
+### ✅ 03. Laravel Framework
+
+| Lecture Range | Topics Covered                                                    | Status      |
+| ------------- | ----------------------------------------------------------------- | ----------- |
+| **Lec 01–02** | Laravel Installation, Routing (with Parameters) & Blade Templates | ✅ Completed |
+| **Lec 03–04** | Controller Logic & Quran API Project (External API Integration)   | ✅ Completed |
+| **Lec 05–06** | Eloquent ORM (CRUD), Blog Application & Asset Management          | ✅ Completed |
+
+---
+
+## ⚙️ Setup & Installation Guide
+
+Follow the steps below to run the projects locally:
+
+### 🗄️ MySQL Setup
+
+* Import the provided `.sql` files into **phpMyAdmin**
+* Execute queries to test database functionality
+
+### 🐘 PHP Setup
+
+* Place the `02_PHP` folder inside:
+
+```
+xampp/htdocs
+```
+
+* Start **Apache & MySQL** from XAMPP Control Panel
+
+### 🚩 Laravel Setup
+
+```bash
+git clone https://github.com/YousufNaveedKhan/BackendJourney25.git
+cd 03_Laravel/ProjectName
+composer install
+php artisan migrate
+php artisan serve
+```
+
+---
+
+## 👨‍🏫 Instructor Details
 
 **Yousuf Naveed Khan**
-Senior Faculty
-Aptech Gulshan 2
+Senior Faculty – Aptech Gulshan 2
 
-> *“Learn fundamentals first, then master frameworks.”* 🚀
+> *"Master the data, control the logic, and the framework will follow."* 🚀
